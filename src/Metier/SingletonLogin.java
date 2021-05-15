@@ -12,7 +12,7 @@ public class SingletonLogin {
 	//	System.out.println("singleton !!! ");
 		String url= "jdbc:mysql://localhost:3306/BachMek?useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC";
 		String user="root";
-		String password="Afnane 13";
+		String password="";
 		
 		try {
 			Class.forName("com.mysql.cj.jdbc.Driver");
